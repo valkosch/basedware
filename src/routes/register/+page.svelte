@@ -12,6 +12,7 @@
   import { superForm } from 'sveltekit-superforms';
   import { zod4Client } from 'sveltekit-superforms/adapters';
   import zxcvbn from 'zxcvbn';
+
   import { registerSchema } from './schema';
 
   const { data } = $props();

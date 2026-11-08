@@ -1,14 +1,16 @@
 <script lang="ts">
-  import interFont from '@fontsource/inter/files/inter-latin-500-normal.woff2?url';
-  import spaceGroteskFont from '@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2?url';
-  import syneFont from '@fontsource/syne/files/syne-latin-800-normal.woff2?url';
+  import { resolve } from '$app/paths';
   import favicon from '$lib/assets/favicon.svg';
+  import Progress from '$lib/Progress.svelte';
+  import Theme from '$lib/Theme.svelte';
+
   import '@fontsource/syne/800.css';
   import '@fontsource/space-grotesk/700.css';
   import '@fontsource/inter/500.css';
-  import { resolve } from '$app/paths';
-  import Progress from '$lib/Progress.svelte';
-  import Theme from '$lib/Theme.svelte';
+  import interFont from '@fontsource/inter/files/inter-latin-500-normal.woff2?url';
+  import spaceGroteskFont from '@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2?url';
+  import syneFont from '@fontsource/syne/files/syne-latin-800-normal.woff2?url';
+
   import '../app.css';
 
   const { children } = $props();

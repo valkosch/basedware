@@ -352,6 +352,11 @@ h3 {
     transform: translate(-1px, -1px);
   }
 
+  .nb-input[aria-invalid='true'],
+  .nb-select[aria-invalid='true'] {
+    border-color: var(--color-red);
+  }
+
   .nb-select {
     appearance: none;
     -webkit-appearance: none;

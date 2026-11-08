@@ -1,4 +1,5 @@
 import { Platform } from '$lib/platforms';
+
 import conversations from './conversations.svg';
 import dino from './dino.svg';
 import gajim from './gajim.svg';

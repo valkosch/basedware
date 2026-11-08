@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="50.799877mm"
-   height="33.807507mm"
-   viewBox="0 0 50.799877 33.807507"
+   width="200"
+   height="200"
+   viewBox="0 0 52.916667 52.916665"
    version="1.1"
    id="svg1"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,26 +13,21 @@
      id="defs1" />
   <g
      id="layer1"
-     transform="translate(-75.726786,-78.37597)">
+     transform="translate(-75.726791,-78.375967)">
     <rect
-       style="fill:#ffd23f;fill-opacity:1;stroke:#ffd23f;stroke-width:0.340077;stroke-opacity:1"
+       style="fill:#ffd23f;fill-opacity:1;stroke:none;stroke-width:0.358483;stroke-opacity:1"
        id="rect4"
-       width="49.859646"
-       height="33.467422"
-       x="76.496986"
-       y="78.546005" />
-    <g
-       id="text2"
-       style="font-size:50.8px;fill:#aa0000;stroke:#aa0000;stroke-width:0.340077"
-       aria-label="A.">
-      <path
-         style="font-weight:bold;font-family:Syne;-inkscape-font-specification:'Syne Bold';fill:#000000;stroke:#1a1a1a;stroke-width:0.340078"
-         d="m 84.173358,104.85063 v -5.638802 h 21.742402 v 5.638802 z m -8.178799,7.1628 15.443199,-32.867602 h 7.3152 l 15.595602,32.867602 h -7.366 L 93.469758,82.397028 h 3.2512 l -13.4112,29.616402 z"
-         id="path3" />
-      <path
-         style="font-weight:bold;font-family:Syne;-inkscape-font-specification:'Syne Bold';fill:#ff0000;stroke:#ff0000;stroke-width:0.340078"
-         d="m 125.93094,106.22223 v 5.7912 h -7.6708 v -5.7912 z"
-         id="path4" />
-    </g>
+       width="52.916672"
+       height="52.916668"
+       x="75.726791"
+       y="78.375969" />
+    <path
+       d="M 92.635976,88.400681 77.192474,121.26792 h 7.315316 l 3.243213,-7.16235 h 17.161747 l 3.26801,7.16235 h 7.36596 L 99.950775,88.400681 Z m 3.663342,6.826973 6.040462,13.238986 H 90.304335 Z"
+       style="font-weight:bold;font-size:50.8px;font-family:Syne;-inkscape-font-specification:'Syne Bold';fill:#000000;stroke:none;stroke-width:0.340078"
+       id="path1" />
+    <path
+       style="font-weight:bold;font-size:50.8px;font-family:Syne;-inkscape-font-specification:'Syne Bold';fill:#ff0000;stroke:none;stroke-width:0.340078"
+       d="m 127.12894,115.47696 v 5.7912 h -7.6708 v -5.7912 z"
+       id="path4" />
   </g>
 </svg>

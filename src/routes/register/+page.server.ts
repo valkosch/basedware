@@ -1,9 +1,10 @@
-import { fail } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 import { env } from '$env/dynamic/private';
+import { fail } from '@sveltejs/kit';
 import { StatusCodes } from 'http-status-codes';
 import { message, superValidate } from 'sveltekit-superforms';
 import { zod4 } from 'sveltekit-superforms/adapters';
+
 import { registerSchema } from './schema';
 
 export const load = async ({ url }) => {
@@ -43,13 +44,13 @@ export const actions = {
         return message(form, 'Registered successfully.');
       }
 
-      if (response.status == StatusCodes.NOT_FOUND) {
+      if (response.status === StatusCodes.NOT_FOUND) {
         return message(form, 'The provided token is not valid or expired. Try again.', {
           status: StatusCodes.BAD_REQUEST,
         });
-      } else if (response.status == StatusCodes.CONFLICT) {
+      } else if (response.status === StatusCodes.CONFLICT) {
         return message(form, 'The provided JID is already registered. Try again.', { status: StatusCodes.BAD_REQUEST });
-      } else if (response.status == StatusCodes.INTERNAL_SERVER_ERROR) {
+      } else if (response.status === StatusCodes.INTERNAL_SERVER_ERROR) {
         return message(form, 'An internal server error occurred. Try again later.', {
           status: StatusCodes.INTERNAL_SERVER_ERROR,
         });
